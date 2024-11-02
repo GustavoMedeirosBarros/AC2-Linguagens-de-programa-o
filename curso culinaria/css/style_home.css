@@ -132,6 +132,35 @@ nav {
   object-fit: cover;
 }
 
+.inscrever-se-curso {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+}
+
+.inscrever-se-curso a{
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  color: white;
+  background-color: rgba(43, 45, 67, 1);
+  border: 2px solid rgba(43, 45, 67, 1);
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 25px;
+}
+
+.inscrever-se-curso h1 {
+  font-size: 1.5rem;
+}
+
+.inscrever-se-curso:hover a {
+  background-color: white;
+  border: 2px solid rgba(43, 45, 67, 1);
+  color: rgba(43, 45, 67, 1);
+  
+}
+
 /* Inicio estilo mais cursos */
 .container-mais {
   margin: 100px auto 70px;
@@ -287,6 +316,7 @@ nav {
 }
 /* Fim estilo beneficios */
 
+/* Começo rodape */
 footer {
   color: black; /* Texto branco */
   padding: 20px;
@@ -295,15 +325,15 @@ footer {
 
 footer hr {
   width: 80%;
-  margin: 0 auto 20px; /* Centraliza e ajusta o espaçamento abaixo */
+  margin: 0 auto 20px; 
   border: 0;
-  border-top: 1px solid #555; /* Linha mais clara que o fundo */
+  border-top: 1px solid #555; 
 }
 
 footer div {
   padding: 60px;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 60px;
+  margin-right: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -323,3 +353,4 @@ footer p {
   margin: 0;
   font-size: 1rem;
 }
+/* Fim rodape */

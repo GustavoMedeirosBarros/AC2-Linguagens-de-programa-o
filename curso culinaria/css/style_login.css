@@ -34,7 +34,7 @@ nav {
       display: flex;
       justify-content: center;
       flex-grow: 1;
-    }
+}
   
   .item-menu {
     display: flex;
@@ -138,14 +138,12 @@ nav {
 
 .logar-card {
     position: fixed;
-    padding: 40px;
+    padding: 70px;
     background-color: #fff;
     box-shadow: -4px 0px 24px black; 
     width: 50%; 
     text-align: center;
-    height: auto;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+    height: 100vh;
 }
 
 .container-login img {

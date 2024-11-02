@@ -213,15 +213,15 @@ footer {
 
 footer hr {
   width: 80%;
-  margin: 0 auto 20px; /* Centraliza e ajusta o espaçamento abaixo */
+  margin: 0 auto 20px; 
   border: 0;
-  border-top: 1px solid #555; /* Linha mais clara que o fundo */
+  border-top: 1px solid #555; 
 }
 
 footer div {
   padding: 60px;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 60px;
+  margin-right: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
